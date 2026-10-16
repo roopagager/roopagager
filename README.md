@@ -13,6 +13,7 @@
 |---|---|
 | [**sap-p2p-copilot**](https://github.com/roopagager/sap-p2p-copilot) | MCP server giving an AI assistant governed, read-only access to SAP S/4HANA procure-to-pay data. Deterministic three-way match in code, approval-only actions, audit log, tests and evals, Parquet landing for Databricks. |
 | [**sap-field-service-bapi-catalogue**](https://github.com/roopagager/sap-field-service-bapi-catalogue) | Integration catalogue of five SAP PM/CS BAPIs for field-service automation, plus a runnable demo: notification, equipment and parts BAPIs with commit/rollback, dedupe, an MCP server and 17 tests in CI. |
+| [**sap-equipment-agent-api**](https://github.com/roopagager/sap-equipment-agent-api) | FastAPI service over SAP S/4HANA `API_EQUIPMENT` + `API_MAINTENANCEORDER`: equipment status, location, last maintenance and technician as an AI agent tool (Claude tool use + MCP), with a one-page client integration spec. |
 | [**q-dispatch**](https://github.com/roopagager/q-dispatch) | AI-assisted hospital insurance claim dispatch: bill pre-audit, claim email, inbox parsing and copay clearance. |
 
 #### How I build
